@@ -1,6 +1,6 @@
 {
   "name": "@mahudas/redis",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "redis plugin for mahudas",
   "main": "index.js",
   "scripts": {
@@ -16,7 +16,7 @@
   "license": "ISC",
   "dependencies": {
     "ioredis": "^5.3.1",
-    "mahudas": "^0.0.9"
+    "mahudas": "^0.1.2"
   },
   "devDependencies": {
     "eslint": "^8.26.0",

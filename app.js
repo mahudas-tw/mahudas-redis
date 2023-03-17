@@ -8,6 +8,6 @@ module.exports = (app) => {
 
     // 離開app時切斷連線
     app.on('beforeClose', async () => {
-        await redis.disconnect();
+        await app.redis.disconnect(app);
     });
 };
